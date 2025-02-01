@@ -46,8 +46,8 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, set_seed
 from transformers.trainer_utils import get_last_checkpoint
 
-from open_r1.configs import SFTConfig
-from open_r1.utils.callbacks import get_callbacks
+from configs import SFTConfig
+from utils.callbacks import get_callbacks
 from trl import (
     ModelConfig,
     ScriptArguments,
